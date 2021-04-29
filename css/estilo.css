@@ -1,0 +1,75 @@
+/* CSS para uso Geral */
+.blue-icon{
+    color: rgb(0, 139, 253);
+    
+}
+.preto{
+    background-color: rgb(0, 0, 0);
+
+}
+.cinza-20{
+    background-color: rgb(120, 120, 120);
+}
+.cinza-40{
+    background-color: rgb(100, 100, 100);
+}
+.cinza-60{
+    background-color: rgb(80, 80, 80);
+}
+.cinza-80{
+    background-color: rgb(50, 50, 50);
+}
+.sombra-caixa{
+    box-shadow: 0 0 10px 0 rgb(148, 148, 148);
+}
+.miniatura{
+/* comportamento inline-block que continua semelhantea texto porém reconhece margens e dimensões */
+    display: inline-block;
+    margin: 5px;
+
+}
+.miniatura img{
+    width: 160px;
+}
+
+
+/* CSS para o carousel */
+.carousel-caption h3, .carousel-caption p{
+    text-shadow: 1px 1px 5px #000;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.486);
+}
+
+/* CSS para seções */
+
+.titulos{
+   width: fit-content;
+   border-bottom: 8px solid rgb(94, 92, 92);
+   margin: 0 auto;
+}
+
+/* CSS para seta de voltar para Home  */
+
+.seta-home{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    cursor: pointer;
+    display: none;
+}
+/* CSS para o footer  */
+ .videoyt{
+     margin-top: 20px;
+ }
+
+ .blue-icon{
+     margin-top: 20px;
+ }
